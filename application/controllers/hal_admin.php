@@ -39,7 +39,7 @@ class hal_admin extends CI_Controller {
 
 	public function main(){
 		$this->load->view('header_admin');
-		$this->load->view($page['main']);
+		$this->load->view('main');
 	}
 
 
@@ -78,6 +78,7 @@ class hal_admin extends CI_Controller {
 		$data = array(
 			"datanya" => $dataikan
 		);
+		$this->load->view("header_admin");
 		$this->load->view("form_edit", $data);
 	}
 
@@ -131,6 +132,7 @@ class hal_admin extends CI_Controller {
 		$data = array(
 			"datanya" => $dataikan
 		);
+		$this->load->view("header_admin");
 		$this->load->view("form_pending", $data);
 	}
 
@@ -157,6 +159,7 @@ class hal_admin extends CI_Controller {
 		$data = array(
 			"datanya" => $dataikan
 		);
+		$this->load->view("header_admin");
 		$this->load->view("form_kirim", $data);
 	}
 }
