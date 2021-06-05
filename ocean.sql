@@ -40,8 +40,8 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`id`, `user`, `pass`) VALUES
 (2, 'sam', 'sul'),
 (3, 'RianAnanda', 'rianwow4'),
-(4, 'Emmanuel', 'emmanuel1');
-
+(4, 'Emmanuel', 'emmanuel1'),
+(5, 'Bachtiar' 'bach1');
 -- --------------------------------------------------------
 
 --
@@ -91,7 +91,7 @@ CREATE TABLE `pending` (
 --
 
 INSERT INTO `pending` (`nomer`, `umum`, `ilmiah`, `kedalaman`, `keterangan`) VALUES
-(1, 'hiu', 'as', 30, 'Predator'),
+(1, 'hiu', 'as', 30, 'Hiu merupakan salah satu predator di laut Bumi, ada lebih dari 400 jenis spesies berbeda dari ikan hiu,'),
 (4, 'Wader', 'Wuader', 3, 'Ikan kecil biasa ada di kali');
 
 --
