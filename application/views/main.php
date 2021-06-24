@@ -45,15 +45,15 @@
             <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤNila" data-content="Ikan nila adalah sejenis ikan konsumsi air tawar. Ikan ini diintroduksi dari Afrika, tepatnya Afrika bagian timur, pada tahun 1969, dan kini menjadi ikan peliharaan yang populer di kolam-kolam air tawar di Indonesia sekaligus hama di setiap sungai dan danau Indonesia."> <img src="<?php echo base_url('img/nila.png'); ?>" width="150px" height="100px" alt="Nila"></a><br><span><b>Nila</b></span>
         </div>
         <div class="col-3 col-4">
-             <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤLele" data-content="Lele atau ikan keli, adalah sejenis ikan yang hidup di air tawar. Lele mudah dikenali karena tubuhnya yang licin, agak pipih memanjang, serta memiliki kumis yang panjang, yang mencuat dari sekitar bagian mulutnya."> <img src="<?php echo base_url('img/Lele.png'); ?>" width="150px" height="100px" alt="Lele"></a><br><span><b>Lele</b></span>
-         </div>
+            <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤLele" data-content="Lele atau ikan keli, adalah sejenis ikan yang hidup di air tawar. Lele mudah dikenali karena tubuhnya yang licin, agak pipih memanjang, serta memiliki kumis yang panjang, yang mencuat dari sekitar bagian mulutnya."> <img src="<?php echo base_url('img/Lele.png'); ?>" width="150px" height="100px" alt="Lele"></a><br><span><b>Lele</b></span>
+        </div>
         <div class="col-3 col-4"> 
             
-             <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤWader" data-content="Wader bintik-dua adalah sejenis ikan kecil anggota suku Cyprinidae anak-suku Cyprininae. Ikan ini menyebar di Indonesia bagian barat, Indocina, dan Filipina. Nama-nama daerahnya di antaranya adalah beunteur, wader cakul atau wader pada umumnya, puyan, tanah atau sepadak dan lain-lain."> <img src="<?php echo base_url('img/Wader.png'); ?>" width="150px" height="100px" alt="Wader"></a><br><span><b>Wader</b></span>
+            <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤWader" data-content="Wader bintik-dua adalah sejenis ikan kecil anggota suku Cyprinidae anak-suku Cyprininae. Ikan ini menyebar di Indonesia bagian barat, Indocina, dan Filipina. Nama-nama daerahnya di antaranya adalah beunteur, wader cakul atau wader pada umumnya, puyan, tanah atau sepadak dan lain-lain."> <img src="<?php echo base_url('img/Wader.png'); ?>" width="150px" height="100px" alt="Wader"></a><br><span><b>Wader</b></span>
         </div>
         
     </div>
-    <span >Kedalaman 1m - 3m </span>
+    <span>Kedalaman 1m - 3m</span>
     <hr>
     
 <!-- Urutan ke 2-->
@@ -71,7 +71,7 @@
             
         </div>
    </div>
-  <span > Kedalaman 30m - 35m </span>
+  <span>Kedalaman 30m - 35m</span>
     <hr>
 
 <!-- Urutan ke 3-->
@@ -88,7 +88,7 @@
         </div>
         
     </div>
- <span > Kedalaman 40m - 100m </span>
+ <span>Kedalaman 40m - 100m</span>
     <hr>
 
 <!-- Urutan ke 4-->
@@ -97,24 +97,27 @@
             
         </div>
         <div class="col-4 col-4"> 
-         <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤBelanak" data-content="Belanak adalah sejenis ikan laut tropis dan subtropis yang bentuknya hampir menyerupai bandeng. Dalam bahasa Inggris dikenal sebagai blue-spot mullet atau blue-tail mullet."> <img src="<?php echo base_url('img/Belanak.png'); ?>" width="150px" height="100px" alt="Belanak"></a><br><span><b>Belanak</b></span>
-         </div>
+            <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤBelanak" data-content="Belanak adalah sejenis ikan laut tropis dan subtropis yang bentuknya hampir menyerupai bandeng. Dalam bahasa Inggris dikenal sebagai blue-spot mullet atau blue-tail mullet."> <img src="<?php echo base_url('img/Belanak.png'); ?>" width="150px" height="100px" alt="Belanak"></a><br><span><b>Belanak</b></span>
+        </div>
         <div class="col-4 col-4"> 
-             <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤMakarel" data-content="Makerel atau makarel adalah sebutan bagi sekelompok ikan laut yang terdiri dari beberapa marga anggota famili Scombridae. Dalam peristilahan bahasa Inggris, sebutan mackerel juga mencakup kelompok ikan tenggiri dan kembung."> <img src="<?php echo base_url('img/Makarel.png'); ?>" width="150px" height="100px" alt="Makarel"></a><br><span><b>Makarel</b></span>
+            <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤBarakuda" data-content="Ikan barakuda adalah ikan dalam kelas Actinopterygii yang dikenal berwujud menyeramkan dan berukuran tubuh besar, yaitu sampai panjang enam kaki dan lebar satu kaki."> <img src="<?php echo base_url('img/barakuda.png'); ?>" width="150px" height="100px" alt="barakuda"></a><br><span><b>Barakuda</b></span>
         </div>
         <div class="col-2 col-2"> 
             
         </div>
    </div>
-<span > Kedalaman 120m - 1000m </span>
+<span>Kedalaman 100m - 1000m</span>
     <hr>
 <!-- Urutan ke 5-->
    <div class="row" style="margin-top: 50px;">
-       <div>
-         <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤBarakuda" data-content="Ikan barakuda adalah ikan dalam kelas Actinopterygii yang dikenal berwujud menyeramkan dan berukuran tubuh besar, yaitu sampai panjang enam kaki dan lebar satu kaki."> <img src="<?php echo base_url('img/barakuda.png'); ?>" width="150px" height="100px" align = "center" alt="barakuda"></a><br><span><b>Barakuda</b></span>
-       </div>
+        <div class="col-4 col-4">
+        <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤMakarel" data-content="Makerel atau makarel adalah sebutan bagi sekelompok ikan laut yang terdiri dari beberapa marga anggota famili Scombridae. Dalam peristilahan bahasa Inggris, sebutan mackerel juga mencakup kelompok ikan tenggiri dan kembung."> <img src="<?php echo base_url('img/Makarel.png'); ?>" width="150px" height="100px" alt="Makarel"></a><br><span><b>Makarel</b></span>
+        </div>
+        <div> 
+        
+        </div>
    </div>
-<span > Kedalaman 1000m+ </span>
+<span>Kedalaman 1000m+</span>
     <hr>
     </div>
 

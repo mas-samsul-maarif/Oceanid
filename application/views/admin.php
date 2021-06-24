@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>css/bootstrap.min.css">
     <title>Document</title>
 </head>
 <body>
     <br><center>
-    <br>
-    <table border="1">
-        <tr>
-            <td>Umum</td>
-            <td>Ilmiah</td>
-            <td>Kedalaman</td>
-            <td>Keterangan</td>
-            <td>AKSI</td>
+    <table class="table table-bordered border-dark table-striped" align="center">
+        <tr bgcolor="#3498DB">
+            <th width="10%"><center>NAMA UMUM</th>
+            <th width="10%"><center>NAMA ILMIAH</th>
+            <th width="9%"><center>KEDALAMAN</th>
+            <th>KETERANGAN</th>
+            <th width="11%"><center>AKSI</th>
         </tr>
         <?php 
             foreach($data as $dat){
@@ -25,8 +25,8 @@
             <td><?php echo $dat['ilmiah']; ?></td>
             <td><?php echo $dat['kedalaman']; ?></td>
             <td><?php echo $dat['keterangan']; ?></td>
-            <td><a href="<?php echo base_url()."index.php/hal_admin/hapus_data/".$dat['nomer']; ?>">Hapus</a>
-                <a href="<?php echo base_url()."index.php/hal_admin/ambil_data/".$dat['nomer']; ?>">Edit</a></td>
+            <td><a class='btn btn-danger' href="<?php echo base_url()."index.php/hal_admin/hapus_data/".$dat['nomer']; ?>">Hapus</a>
+                <a class='btn btn-primary' href="<?php echo base_url()."index.php/hal_admin/ambil_data/".$dat['nomer']; ?>">Edit</a></td>
         </tr>
         <?php } ?>
     </table>

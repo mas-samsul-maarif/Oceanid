@@ -13,7 +13,7 @@
     <center>
     <div class='card' style="width: 500px; height: 270px;">
     <form action="<?php echo base_url()."index.php/hal_utama/tambah_data"?>" method="POST">
-    <table class='table1'>
+    <table class='table1'><br>
         <tr><td>Nama Umum:</td><td> <input style="width: 350px;" type="text" name="umum"> </td>
         <tr><td>Nama Ilmiah: </td><td><input style="width: 350px;" type="text" name="ilmiah"></td>
         <tr><td>Kedalaman: </td><td><input style="width: 350px;" type="text" name="kedalaman"></td>
