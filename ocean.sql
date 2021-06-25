@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 02, 2021 at 07:24 AM
+-- Generation Time: Jun 25, 2021 at 03:42 PM
 -- Server version: 10.4.17-MariaDB
--- PHP Version: 7.3.27
+-- PHP Version: 8.0.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -41,7 +41,8 @@ INSERT INTO `admin` (`id`, `user`, `pass`) VALUES
 (2, 'sam', 'sul'),
 (3, 'RianAnanda', 'rianwow4'),
 (4, 'Emmanuel', 'emmanuel1'),
-(5, 'Bachtiar' 'bach1');
+(5, 'bach', 'tiar');
+
 -- --------------------------------------------------------
 
 --
@@ -69,8 +70,9 @@ INSERT INTO `ikan` (`nomer`, `umum`, `ilmiah`, `kedalaman`, `keterangan`) VALUES
 (6, 'Makarel', 'Scomber scombrus', 1000, 'Makerel atau makarel adalah sebutan bagi sekelompok ikan laut yang terdiri dari beberapa marga anggota famili Scombridae. Dalam peristilahan bahasa Inggris, sebutan mackerel juga mencakup kelompok ikan tenggiri dan kembung.'),
 (7, 'Tenggiri', 'Scomberomorini', 70, 'Scomberomorini, umumnya disebut ikan tenggiri, adalah suku ikan bertulang pada keluarga makerel, Scombridae – yang masih memiliki kaitan dengan suku makerel, tuna dan bonito, ditambah Gasterochisma melampus. Suku ini terdiri dari 21 spesies dalam tiga genera: Acanthocybium A. solandri Grammatorcynus G. bicarinatus'),
 (8, 'Wader', 'Wuader', 1, 'Wader bintik-dua adalah sejenis ikan kecil anggota suku Cyprinidae anak-suku Cyprininae. Ikan ini menyebar di Indonesia bagian barat, Indocina, dan Filipina. Nama-nama daerahnya di antaranya adalah beunteur, wader cakul atau wader pada umumnya, puyan, tanah atau sepadak dan lain-lain.'),
-(9, 'hiu', 'Selachimorpha', 30, 'Ikan Hiu adalah sekelompok ikan dengan kerangka tulang rawan yang lengkap dan tubuh yang ramping. Mereka bernapas dengan menggunakan lima liang insang di samping, atau dimulai sedikit di belakang, kepalanya.'),
-(10, 'Belanak', 'Moolgarda seheli', 120, 'Belanak adalah sejenis ikan laut tropis dan subtropis yang bentuknya hampir menyerupai bandeng. Dalam bahasa Inggris dikenal sebagai blue-spot mullet atau blue-tail mullet.');
+(9, 'Hiu', 'Selachimorpha', 30, 'Ikan Hiu adalah sekelompok ikan dengan kerangka tulang rawan yang lengkap dan tubuh yang ramping. Mereka bernapas dengan menggunakan lima liang insang di samping, atau dimulai sedikit di belakang, kepalanya.'),
+(10, 'Belanak', 'Moolgarda seheli', 120, 'Belanak adalah sejenis ikan laut tropis dan subtropis yang bentuknya hampir menyerupai bandeng. Dalam bahasa Inggris dikenal sebagai blue-spot mullet atau blue-tail mullet.'),
+(11, 'Barakuda', 'Sphyraena', 110, 'Ikan barakuda adalah ikan dalam kelas Actinopterygii yang dikenal berwujud menyeramkan dan berukuran tubuh besar, yaitu sampai panjang enam kaki dan lebar satu kaki.');
 
 -- --------------------------------------------------------
 
@@ -91,7 +93,7 @@ CREATE TABLE `pending` (
 --
 
 INSERT INTO `pending` (`nomer`, `umum`, `ilmiah`, `kedalaman`, `keterangan`) VALUES
-(1, 'hiu', 'as', 30, 'Hiu merupakan salah satu predator di laut Bumi, ada lebih dari 400 jenis spesies berbeda dari ikan hiu,'),
+(1, 'hiu', 'as', 30, 'Predator'),
 (4, 'Wader', 'Wuader', 3, 'Ikan kecil biasa ada di kali');
 
 --
@@ -124,13 +126,13 @@ ALTER TABLE `pending`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `ikan`
 --
 ALTER TABLE `ikan`
-  MODIFY `nomer` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `nomer` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `pending`
