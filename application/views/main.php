@@ -35,7 +35,7 @@
 <body class="p-3 mb-2" id="backsea">
     <!-- <div class="p-3 mb-2 bg-info text-dark">.bg-info</div> -->
     <center><br>
-    <h3>The Ocean</h3><br>
+    <h3><span style="color:skyblue;font-weight:bold">The Ocean</span></h3><br>
     <!-- <img src="<?php echo base_url('img/main.jpg'); ?>" width="50px" height="50px"><br> -->
     <div class="container">
 
