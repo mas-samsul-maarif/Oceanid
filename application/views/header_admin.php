@@ -10,8 +10,8 @@
     <script type='text/javascript' src="<?php echo base_url();?>js/sample.js"></script>
 </head>
 <body>
-    <center><h1>OCEAN.ID</h1></center>
-    <div id="navbar" >
+    <center><a class="b" href="<?php echo base_url()."index.php/hal_admin/main"; ?>"><img src="<?php echo base_url('img/ocean.png'); ?>"></a></center><br>
+    <div id="navbar">
         <a class="b" href="<?php echo base_url()."index.php/hal_admin/main"; ?>">Home</a>
         <a class="b" href="<?php echo base_url()."index.php/hal_admin/simple" ;?>">Simple Mode</a>
         <a class="b" href="<?php echo base_url()."index.php/hal_admin/baca_form"; ?>">Add Fish</a>

@@ -35,7 +35,7 @@
 <body class="p-3 mb-2" id="backsea">
     <!-- <div class="p-3 mb-2 bg-info text-dark">.bg-info</div> -->
     <center><br>
-    <h3>OCEAN</h3><br>
+    <h3>The Ocean</h3><br>
     <!-- <img src="<?php echo base_url('img/main.jpg'); ?>" width="50px" height="50px"><br> -->
     <div class="container">
 
@@ -110,7 +110,7 @@
     <hr>
 <!-- Urutan ke 5-->
    <div class="row" style="margin-top: 50px;">
-        <div class="col-4 col-4">
+        <div class="col-12">
         <a href="#" data-toggle="popover" data-trigger="focus" title="ㅤMakarel" data-content="Makerel atau makarel adalah sebutan bagi sekelompok ikan laut yang terdiri dari beberapa marga anggota famili Scombridae. Dalam peristilahan bahasa Inggris, sebutan mackerel juga mencakup kelompok ikan tenggiri dan kembung."> <img src="<?php echo base_url('img/Makarel.png'); ?>" width="150px" height="100px" alt="Makarel"></a><br><span><b>Makarel</b></span>
         </div>
         <div> 

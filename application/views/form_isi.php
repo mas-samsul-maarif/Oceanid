@@ -19,7 +19,7 @@
         <tr><td>Kedalaman: </td><td><input style="width: 350px;" type="text" name="kedalaman"></td>
         <tr><td>Keterangan: </td><td><input style="width: 350px;" type="text" name="keterangan"></td>
     </table><br>
-        <input type="submit"> <input type="reset">
+        <input class='btn btn-success' type="submit"> <input class='btn btn-danger' type="reset">
     </form> 
     </div>
 </body>

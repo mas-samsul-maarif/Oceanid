@@ -14,7 +14,7 @@
             <th width="10%"><center>NAMA UMUM</th>
             <th width="10%"><center>NAMA ILMIAH</th>
             <th width="9%"><center>KEDALAMAN</th>
-            <th>KETERANGAN</th>
+            <th><center>KETERANGAN</th>
             <th width="11%"><center>AKSI</th>
         </tr>
         <?php 

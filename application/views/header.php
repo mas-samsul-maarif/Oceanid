@@ -10,7 +10,7 @@
     <script type='text/javascript' src="<?php echo base_url();?>js/sample.js"></script>
 </head>
 <body>
-    <center><h1>OCEAN.ID</h1></center>
+    <center><a class="a" href="<?php echo base_url()."index.php/hal_utama/main"; ?>"><img src="<?php echo base_url('img/ocean.png');?>"></a></center><br>
     <div id="navbar">
         <a class="a" href="<?php echo base_url()."index.php/hal_utama/main"; ?>">Home</a>
         <a class="a" href="<?php echo base_url()."index.php/hal_utama/index"; ?>">Simple Mode</a>
