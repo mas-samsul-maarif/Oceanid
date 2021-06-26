@@ -8,16 +8,15 @@
     <title>Ocean.id</title>
 </head>
 <body>
-<br>
-    <center>
+    <br><center>
     <div class='card' style="width: 500px; height: 270px;"><br>
-    <form action="<?php echo base_url()."index.php/hal_utama/aksi_login"?>" method="POST">
-    <table class='table1'>
-        <tr><td>Username:</td><td> <input style="width: 350px;" type="text" name="user"> </td>
-        <tr><td>Password: </td><td><input style="width: 350px;" type="text" name="pass"></td>
-    </table><br>
-        <input class='btn btn-success' type="submit"> <input class='btn btn-danger' type="reset">      
-    </form> 
+        <form action="<?php echo base_url()."index.php/hal_utama/aksi_login"?>" method="POST">
+            <table class='table1'>
+                <tr><td>Username:</td><td> <input style="width: 350px;" type="text" name="user"> </td>
+                <tr><td>Password: </td><td><input style="width: 350px;" type="text" name="pass"></td>
+            </table><br>
+            <input class='btn btn-success' type="submit"> <input class='btn btn-danger' type="reset">      
+        </form> 
     </div>
 </body>
 </html>

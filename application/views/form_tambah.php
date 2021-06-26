@@ -9,18 +9,17 @@
     <title>Ocean.id</title>
 </head>
 <body>
-    <br>
-    <center>
+    <br><center>
     <div class='card' style="width: 500px; height: 270px;">
-    <form action="<?php echo base_url()."index.php/hal_admin/tambah_data"?>" method="POST"><br>
-    <table class='table1'>
-        <tr><td>Nama Umum:</td><td> <input style="width: 350px;" type="text" name="umum"> </td>
-        <tr><td>Nama Ilmiah: </td><td><input style="width: 350px;" type="text" name="ilmiah"></td>
-        <tr><td>Kedalaman: </td><td><input style="width: 350px;" type="text" name="kedalaman"></td>
-        <tr><td>Keterangan: </td><td><input style="width: 350px;" type="text" name="keterangan"></td>
-    </table><br>
-        <input class='btn btn-success' type="submit"> <input class='btn btn-danger' type="reset">
-    </form> 
+        <form action="<?php echo base_url()."index.php/hal_admin/tambah_data"?>" method="POST"><br>
+            <table class='table1'>
+                <tr><td>Nama Umum:</td><td> <input style="width: 350px;" type="text" name="umum"> </td>
+                <tr><td>Nama Ilmiah: </td><td><input style="width: 350px;" type="text" name="ilmiah"></td>
+                <tr><td>Kedalaman: </td><td><input style="width: 350px;" type="text" name="kedalaman"></td>
+                <tr><td>Keterangan: </td><td><input style="width: 350px;" type="text" name="keterangan"></td>
+            </table><br>
+            <input class='btn btn-success' type="submit"> <input class='btn btn-danger' type="reset">
+        </form> 
     </div>
 </center>
 </body>

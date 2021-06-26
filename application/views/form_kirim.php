@@ -8,14 +8,19 @@
     <title>Ocean.id</title>
 </head>
 <body>
+    <br><center>
     <?php foreach($datanya as $dat){ ?>
-    <form action="<?php echo base_url()."index.php/hal_admin/tambah_data"?>" method="POST">
-        umum: <input type="text" name="umum" value="<?php echo $dat['umum']; ?>"><br>
-        ilmiah: <input type="text" name="ilmiah" value="<?php echo $dat['ilmiah']; ?>"><br>
-        kedalaman: <input type="text" name="kedalaman" value="<?php echo $dat['kedalaman']; ?>"><br>
-        keterangan: <input type="text" name="keterangan" value="<?php echo $dat['keterangan']; ?>"><br>
-        <input type="submit" value="Accept"> <input type="reset">
-    </form> 
+    <div class='card' style="width: 500px; height: 270px;">
+        <form action="<?php echo base_url()."index.php/hal_admin/tambah_data"?>" method="POST">
+            <table class='table1'><br>
+                <tr><td>Nama Umum: </td><td><input type="text" name="umum" value="<?php echo $dat['umum']; ?>"></td>
+                <tr><td>Nama Ilmiah: </td><td><input type="text" name="ilmiah" value="<?php echo $dat['ilmiah']; ?>"></td>
+                <tr><td>Kedalaman: </td><td><input type="text" name="kedalaman" value="<?php echo $dat['kedalaman']; ?>"></td>
+                <tr><td>Keterangan: </td><td><input type="text" name="keterangan" value="<?php echo $dat['keterangan']; ?>"></td>
+            </table><br>
+        <input class='btn btn-success' type="submit" value="Accept"> <input class='btn btn-danger' type="reset">
+        </form>
+    </div>
     <?php } ?>
 </body>
 </html>
